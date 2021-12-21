@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ThemeSwitch from "./ThemeSwitch";
 
 const Navigation = () => {
   return (
@@ -14,6 +15,29 @@ const Navigation = () => {
             Craig Wheeler
           </a>
         </Link>
+        <div className="flex items-center">
+          <div className="md:flex lg:flex space-x-4 font-medium text-gray-800 hidden sm:block dark:text-white">
+            <Link href="/">
+              <a
+                className={
+                  "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
+                }
+              >
+                About
+              </a>
+            </Link>
+            <Link href="/">
+              <a
+                className={
+                  "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
+                }
+              >
+                Projects
+              </a>
+            </Link>
+          </div>
+          <ThemeSwitch />
+        </div>
       </div>
     </div>
   );
