@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import profile from "../public/profile.jpeg";
+import SocialMenu from "./SocialMenu";
 
 const About = () => {
   return (
@@ -36,16 +37,17 @@ const About = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-shrink-0 lg:mt-10 lg:px-4 mb-10">
+        <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
           <Image
             src={profile}
             alt="Profile"
             priority={true}
             className="rounded-full"
-            width={250}
-            height={250}
+            width={200}
+            height={200}
             placeholder="blur"
           />
+          <SocialMenu />
         </div>
       </div>
     </div>

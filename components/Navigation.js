@@ -3,11 +3,11 @@ import React from "react";
 import ThemeSwitch from "./ThemeSwitch";
 
 const MenuLinks = () => (
-  <div className="md:flex lg:flex space-x-4 font-medium text-gray-800 hidden sm:block dark:text-white">
+  <div className="md:flex lg:flex space-x-4 font-small text-gray-800 hidden sm:block dark:text-white">
     <Link href="/">
       <a
         className={
-          "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
+          "font-small tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
         }
       >
         About
@@ -16,7 +16,7 @@ const MenuLinks = () => (
     <Link href="/">
       <a
         className={
-          "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
+          "font-small tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
         }
       >
         Projects
@@ -32,7 +32,7 @@ const Navigation = () => {
         <Link href="/">
           <a
             className={
-              "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"
+              "font-small tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"
             }
           >
             Craig Wheeler
