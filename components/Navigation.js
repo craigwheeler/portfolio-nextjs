@@ -2,6 +2,29 @@ import Link from "next/link";
 import React from "react";
 import ThemeSwitch from "./ThemeSwitch";
 
+const MenuLinks = () => (
+  <div className="md:flex lg:flex space-x-4 font-medium text-gray-800 hidden sm:block dark:text-white">
+    <Link href="/">
+      <a
+        className={
+          "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
+        }
+      >
+        About
+      </a>
+    </Link>
+    <Link href="/">
+      <a
+        className={
+          "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
+        }
+      >
+        Projects
+      </a>
+    </Link>
+  </div>
+);
+
 const Navigation = () => {
   return (
     <div className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black">
@@ -16,26 +39,6 @@ const Navigation = () => {
           </a>
         </Link>
         <div className="flex items-center">
-          <div className="md:flex lg:flex space-x-4 font-medium text-gray-800 hidden sm:block dark:text-white">
-            <Link href="/">
-              <a
-                className={
-                  "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
-                }
-              >
-                About
-              </a>
-            </Link>
-            <Link href="/">
-              <a
-                className={
-                  "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"
-                }
-              >
-                Projects
-              </a>
-            </Link>
-          </div>
           <ThemeSwitch />
         </div>
       </div>
