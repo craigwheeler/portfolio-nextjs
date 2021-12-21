@@ -9,7 +9,7 @@ const Footer = () => {
           <p>Built with Next.js, Tailwind and Vercel</p>
           <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/craigawheeler/"
               className={"transition-colors hover:text-sky-500"}
               target="_blank"
               rel="noreferrer"
@@ -17,7 +17,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://github.com/craigwheeler"
               className={"transition-colors hover:text-sky-500"}
               target="_blank"
               rel="noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="#"
+              href="https://codepen.io/craigwheeler"
               className={"transition-colors hover:text-sky-500"}
               target="_blank"
               rel="noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => {
               Codepen
             </a>
             <a
-              href="#"
+              href="https://twitter.com/iamnumber2407"
               className={"transition-colors hover:text-sky-500"}
               target="_blank"
               rel="noreferrer"

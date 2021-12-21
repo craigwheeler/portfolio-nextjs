@@ -12,12 +12,28 @@ const About = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              I'm a Front-end Engineer from Tampa, FL with 6+ years experience
-              using modern tools with a focus on JavaScript, ReactJS and Redux.
-              I have also worked with TypeScript, GraphQL, Webpack, Storybook,
-              Apollo, Jest, React-Testing-Library, Cypress and anything else I
-              can get my hands on!
+              I'm a Front-end Engineer with 6+ years experience using modern
+              tools with a focus on ReactJS and Redux currently working at{" "}
+              <a
+                href="https://www.linkedin.com/in/craigawheeler/"
+                className={"font-bold transition-colors hover:text-sky-500"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                GovernmentCIO
+              </a>
+              .
             </p>
+
+            <p className="mb-4">
+              I have also developed apps using TypeScript, GraphQL, Webpack,
+              Storybook, Apollo, Jest, React-Testing-Library, Cypress and
+              anything else I can get my hands on!
+            </p>
+
+            <h2 className="font-bold">
+              Take a look at my work or get in touch! 🚀
+            </h2>
           </div>
         </div>
         <div className="flex-shrink-0 lg:mt-10 lg:px-4 mb-10">
