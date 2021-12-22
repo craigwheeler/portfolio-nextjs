@@ -13,8 +13,8 @@ const About = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              I'm a Front-end Engineer with 6+ years experience using modern
-              tools with a focus on ReactJS and Redux currently working at{" "}
+              My name is Craig and I'm a Front-end Engineer with 6+ years
+              experience using ReactJS and Redux currently working at{" "}
               <a
                 href="https://www.linkedin.com/in/craigawheeler/"
                 className={"font-bold transition-colors hover:text-sky-500"}
@@ -43,9 +43,8 @@ const About = () => {
             alt="Profile"
             priority={true}
             className="rounded-full"
-            width={200}
-            height={200}
-            placeholder="blur"
+            width={225}
+            height={225}
           />
           <SocialMenu />
         </div>
