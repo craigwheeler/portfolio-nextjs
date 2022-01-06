@@ -5,7 +5,7 @@
   <h3 align="center">Craig Wheeler</h3>
   <p align="center">A minimal portfolio created with Next.js, Tailwind and Vercel</p>
   <p align="center">
-    <a href="http://craigwheeler.net" target="_blank">View My Portfolio</a>
+    <a href="http://craigwheeler.dev" target="_blank">View My Portfolio</a>
   </p>
 </p>
 
