@@ -13,23 +13,25 @@ const About = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              My name is Craig and I'm a Front-end Engineer with 6+ years
-              experience using ReactJS and Redux currently working at{" "}
+              My name is Craig and I am a Sr. Software Engineer with 7+ years
+              experience creating web applications and data visualizations using
+              JavaScript currently working at{" "}
               <a
                 href="https://www.linkedin.com/in/craigawheeler/"
                 className={"font-bold transition-colors hover:text-sky-500"}
                 target="_blank"
                 rel="noreferrer"
               >
-                GovernmentCIO
+                Breakthrough
               </a>
               .
             </p>
 
             <p className="mb-4">
-              I have also developed apps using TypeScript, GraphQL, Webpack,
-              Storybook, Apollo, Jest, React-Testing-Library, Cypress and
-              anything else I can get my hands on!
+              I have also worked with React, Redux, TypeScript, GraphQL, Apollo,
+              Node.js, Express, Sequelize, Webpack, Storybook, Next.js, Jest,
+              React-Testing-Library, Cypress and anything else I can get my
+              hands on!
             </p>
 
             <h2 className="font-bold">
