@@ -13,22 +13,13 @@ const About = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              My name is Craig and I am a Sr. Software Engineer with 7+ years
-              experience creating web applications and data visualizations using
-              JavaScript currently working at{" "}
-              <a
-                href="https://www.linkedin.com/in/craigawheeler/"
-                className={"font-bold transition-colors hover:text-sky-500"}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Breakthrough
-              </a>
-              .
+              I'm Craig Wheeler, a Senior Software Engineer with a strong
+              background in building web applications and crafting insightful
+              data visualizations.
             </p>
 
             <p className="mb-4">
-              I have also worked with React, Redux, TypeScript, GraphQL, Apollo,
+              I have worked with React, Redux, TypeScript, GraphQL, Apollo,
               Node.js, Express, Sequelize, Webpack, Storybook, Next.js, Jest,
               React-Testing-Library, Cypress and anything else I can get my
               hands on!

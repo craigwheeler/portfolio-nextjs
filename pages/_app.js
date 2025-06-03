@@ -7,7 +7,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <ThemeProvider attribute="class" enableSystem={true}>
-        <Navigation />
+        {/* <Navigation /> */}
         <Component {...pageProps} />
         <Footer />
       </ThemeProvider>
